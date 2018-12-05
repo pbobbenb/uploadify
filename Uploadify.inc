@@ -440,7 +440,10 @@ class UploadifyView extends GalleryView {
     }
 
     if (isset($error)) {
-        print $error;
+    	$errmsg="";
+    	foreach( $error as $msg)
+    		$errmsg.= $msg . " ";
+    	print $errmsg;
     } else {
         return null;
     }

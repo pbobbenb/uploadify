@@ -39,7 +39,7 @@ class UploadifyModule extends GalleryModule {
     /**
      * @see GalleryPlugin::upgrade
      */
-    function upgrade($currentVersion) {
+    function upgrade_plugin($currentVersion) {
         global $gallery;
 
         list($ret, $params) = GalleryCoreApi::fetchAllPluginParameters('module', 'uploadify');
