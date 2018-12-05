@@ -58,7 +58,7 @@ class ItemAddUploadify extends ItemAddPlugin {
 
         $template->style('modules/uploadify/lib/uploadify.css');
         $template->style('modules/uploadify/lib/uploadify.jGrowl.css');
-        $template->javascript('http://code.jquery.com/jquery-1.7.2.min.js');
+        $template->javascript('modules/uploadify/lib/jquery-1.7.2.min.js');
 	$template->javascript('modules/uploadify/lib/swfobject.js');
         $template->javascript('modules/uploadify/lib/jquery.uploadify.min.js');
         $template->javascript('modules/uploadify/lib/jquery.jgrowl_minimized.js');
